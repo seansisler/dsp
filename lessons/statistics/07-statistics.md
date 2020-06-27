@@ -88,12 +88,48 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
+```python
+prob_identical = (1/300) ## p(A)
+prob_fraternal = (1/125) 
+prob_male_identical = (1/2)
+prob_male_fraternal = (1/4)
+prob_elvis = prob_identical*prob_male_identical / ((prob_identical*prob_male_identical)+(prob_male_fraternal*prob_fraternal))
+prob_elvis
+```
+
+
+
+
+    0.45454545454545453
+
+
+
+
+```python
+
+
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
+
+
+
+
+```
+
+Bayesian probablity is based on the interpretation of probability that expresses a degree of belief in an event. This degree of belief may be based on prior knowledge about the event like results of previous experiments or on personal beliefs about the event.
+
+Frequentist probability is an interpretation of probability that defines probability as a limit of its relative frequency in many trials. It further emphasizes that probabilities can be found by a repeatable objective process, thus are devoid of opinion. Probabilities, in frequentist prespective, are discussed only when dealing with well-defined random experiments, or random samples).
+
+The frequentist probability is either 0 or 1 for a hypothesis, while Bayesian probability assigns the probability of a hypothesis as a value in the range from 0 to 1. 
+
+
+```python
+
+```
 
 ---
 
